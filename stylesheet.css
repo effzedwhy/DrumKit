@@ -1,0 +1,48 @@
+html {
+    font-size: 10px;
+    background-color: rgb(80, 173, 177);
+ }
+
+ body, html {
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ 
+ .keys {
+     display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    margin: 0 auto;
+    padding: 30vh;
+
+ }
+
+ .key {
+     border: .4rem solid grey;
+     border-radius: .5rem;
+     padding: 1rem;
+     margin: 1rem;
+     width: 10rem;
+     text-align: center;
+     color: white;
+     background-color: rgb(190, 118, 190);
+     text-shadow: 1px 1px 0.5rem black;
+     box-shadow: 0 .2rem 0.5rem black;
+     transition: all 0.07s;
+ }
+ kbd {
+     display: block;
+     font-size: 3.5rem;
+ }
+
+ .sound {
+     font-size: 1.5rem;
+     letter-spacing: .1rem;
+    color: white;
+ }
+
+ .playing {
+     transform: scale(1.1);
+     border-color: grey;
+     box-shadow: 0 0 10px grey;
+ }
