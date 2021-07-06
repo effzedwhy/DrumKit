@@ -5,6 +5,6 @@ This is a keyboard key activated drum set. Each key corresponds to the letter on
 
 Whilst building this app I learned the following:
 
-~ How to use keyboard key codes. 
-~ How to add and remove classLists.
-~ Improves CSS skills.
+1) How to use keyboard key codes. 
+2) How to add and remove CSS classes.
+3) Improved CSS skills.
